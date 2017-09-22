@@ -12,7 +12,8 @@ first_published: 2017 # if migrating another site, the year of your first publis
 email: ceo@backcountrywok.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.backcountrywok.com" # the base hostname & protocol for your site
-
+#Google Tag Manager ID
+gtm: GTM-WGCS86D
 social:
   twitter: https://twitter.com/backcountry_wok
   #github: https://github.com/<username>
