@@ -5,7 +5,9 @@
  +    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  +    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
  +    })(window,document,'script','dataLayer','{{ site.gtm }}');
-      gtag('config','UA-106765418-1');                        
+      gtag('config','UA-106765418-1');
+      gtag('event', 'page_view', { 'send_to': 'UA-106765418-1' });                            
+      gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.                             
 </script>
  +    <!-- End Google Tag Manager -->
  +{% endif %} 
